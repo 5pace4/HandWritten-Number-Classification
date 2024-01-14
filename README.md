@@ -88,18 +88,18 @@ These features collectively contribute to the development of a comprehensive sys
 The following figures represent the deployment of the project, showcasing its capability to predict numbers from handwritten images.
 
 ### Figure 01: Interface of Home Page
-![Home Page](assets/1.png)
+![Home Page](Assets/1.jpg)
 
 ### Figure 02: Interface of Predictor Screen
-![Predictor Screen](assets/2.png)
+![Predictor Screen](Assets/2.jpg)
 
 The deployment interfaces illustrate the core functionality of predicting handwritten numbers based on given input images. These interfaces provide a user-friendly experience for interacting with the trained model.
 
 ### Figure 03: Interface of Predictor Screen (Including Prediction)
-![Predictor Screen with Prediction](assets/3.png)
+![Predictor Screen with Prediction](Assets/3.jpg)
 
 ### Figure 04: Interface of Collaborator Screen
-![Collaborator Screen](assets/4.png)
+![Collaborator Screen](Assets/4.jpg)
 
 These figures collectively depict the user interfaces and the collaborative aspects of the deployed project, emphasizing its practical application in predicting numbers from handwritten images.
 
@@ -137,10 +137,10 @@ The system implementation phase involves the application of deep learning method
 The figures below illustrate some core aspects of the model training process, showcasing the use of necessary frameworks and functions.
 
 ### Figure 05: Heatmap of Predicted Value Versus True Value
-![Heatmap](assets/6.png)
+![Heatmap](Assets/6.png)
 
 ### Figure 06: Sample Image for Predicting a Number
-![Sample Image](assets/7.png)
+![Sample Image](Assets/7.png)
 
 
 ## 5 Conclusion
