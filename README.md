@@ -1,4 +1,5 @@
-# Handwritten Digit Classification Project
+# DigitsInSight-Handwritten Number Predictor
+An adept system for predicting handwritten numbers, leveraging the MNIST dataset comprising 60,000 training and 10,000 testing instances.
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
