@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 from PIL import Image
 import numpy as np
-import cv2
 import pyttsx3
 
 from custom_module.preprocess_image import preprocess_image
