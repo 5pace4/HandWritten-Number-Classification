@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 from PIL import Image
 import numpy as np
-import pyttsx3
 
 from custom_module.preprocess_image import preprocess_image
 from custom_module.resize_digit import resize_digit
