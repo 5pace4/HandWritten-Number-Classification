@@ -1,4 +1,4 @@
-# dependencies as needed
-
-joblib==1.0.1
-
+streamlit==1.17.0
+joblib==1.1.0
+Pillow==8.4.0
+numpy==1.21.4
