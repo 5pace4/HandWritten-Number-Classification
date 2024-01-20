@@ -1,3 +1,4 @@
+import os;
 import streamlit as st
 import joblib
 from PIL import Image
@@ -8,9 +9,19 @@ from custom_module.resize_digit import resize_digit
 from custom_module.find_digits import find_digits
 from custom_module.text_to_speech import text_to_speech
 
+# Get the base directory of the project
+base_dir = os.path.dirname(__file__)
+
+
+# Construct the relative paths to the model files
+Nmodel_model_path = os.path.join(base_dir, 'model', 'Nmodel.joblib')
+
+
+# Load the trained machine learning models
+loaded_model = joblib.load(Nmodel_model_path)
 
 # Load the model
-loaded_model = joblib.load('model/Nmodel.joblib')
+#loaded_model = joblib.load('model/Nmodel.joblib')
 
 # Sidebar
 st.sidebar.title("Handwritten Number Prediction App")
