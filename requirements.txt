@@ -1,4 +1,6 @@
-streamlit==1.17.0
 joblib==1.1.0
 Pillow==8.4.0
-numpy==1.21.4
+opencv-python==4.9.0.80
+streamlit==1.17.0
+
+
