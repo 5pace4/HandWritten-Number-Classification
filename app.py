@@ -7,7 +7,7 @@ import numpy as np
 from custom_module.preprocess_image import preprocess_image
 from custom_module.resize_digit import resize_digit
 from custom_module.find_digits import find_digits
-from custom_module.text_to_speech import text_to_speech
+# from custom_module.text_to_speech import text_to_speech
 
 # Get the base directory of the project
 base_dir = os.path.dirname(__file__)
@@ -95,10 +95,10 @@ elif selected_section == "Predictor System":
 
         st.write(f"Prediction: {prediction}")
 
-        # Speech Button
-        if st.button("Speak Prediction"):
-            # Speak the prediction
-            text_to_speech(f"The given number is {prediction}")
+        # # Speech Button
+        # if st.button("Speak Prediction"):
+        #     # Speak the prediction
+        #     text_to_speech(f"The given number is {prediction}")
 
 # Section: Collaborators
 elif selected_section == "Collaborators":
