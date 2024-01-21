@@ -1,6 +1,5 @@
-from PIL import Image
+import cv2
 
 def resize_digit(digit, target_size=(28, 28)):
-    img_pil = Image.fromarray(digit)
-    resized_digit = img_pil.resize(target_size, resample=Image.LANCZOS)
+    resized_digit = cv2.resize(digit, target_size, interpolation=cv2.INTER_AREA)
     return resized_digit
